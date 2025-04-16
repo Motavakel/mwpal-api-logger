@@ -1,1 +1,85 @@
+.mwpal-search-form {
+    margin-bottom: 20px;
+    float: left;
+}
 
+.mwpal-search-form input[type="text"] {
+    width: 300px;
+    padding: 6px;
+    margin-right: 10px;
+}
+
+.mwpal-logs-table th,
+.mwpal-logs-table td {
+    padding: 12px;
+    vertical-align: middle;
+}
+
+.mwpal-method {
+    display: inline-block;
+    padding: 4px 8px;
+    border-radius: 4px;
+    color: #fff;
+    font-weight: bold;
+}
+
+.mwpal-method-get {
+    background-color: #28a745;
+}
+
+.mwpal-method-post {
+    background-color: #007bff;
+}
+
+.mwpal-method-put {
+    background-color: #ffc107;
+}
+
+.mwpal-method-delete {
+    background-color: #dc3545;
+}
+
+.mwpal-url {
+    word-break: break-all;
+    background: #f8f9fa;
+    padding: 4px 8px;
+    border-radius: 4px;
+}
+
+.mwpal-response pre {
+    background: #f8f9fa;
+    padding: 10px;
+    border-radius: 4px;
+    max-height: 200px;
+    overflow-y: auto;
+    margin: 0;
+    white-space: pre-wrap;
+}
+
+.mwpal-pagination {
+    margin-top: 20px;
+    text-align: center;
+}
+
+.mwpal-pagination .page-numbers {
+    padding: 8px 12px;
+    margin: 0 4px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    text-decoration: none;
+    color: #007bff;
+}
+
+.mwpal-pagination .page-numbers.current {
+    background: #007bff;
+    color: #fff;
+    border-color: #007bff;
+}
+
+.mwpal-pagination .page-numbers:hover {
+    background: #f1f1f1;
+}
+
+.button.button-primary {
+    padding: 5px 10px;
+}
