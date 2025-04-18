@@ -13,6 +13,7 @@ if (!defined('ABSPATH')) exit;
 
 define('MWPAL_PLUGIN_PATH', plugin_dir_path(__FILE__));
 define('MWPAL_PLUGIN_URL', plugin_dir_url(__FILE__));
+define('MWPAL_PLUGIN_TEMPLATE', plugin_dir_path(__FILE__) . '/includes/templates');
 define('MWPAL_VERSION', '1.0.0');
 
 

@@ -31,14 +31,6 @@
     background-color: #007bff;
 }
 
-.mwpal-method-put {
-    background-color: #ffc107;
-}
-
-.mwpal-method-delete {
-    background-color: #dc3545;
-}
-
 .mwpal-url {
     word-break: break-all;
     background: #f8f9fa;
@@ -82,4 +74,37 @@
 
 .button.button-primary {
     padding: 5px 10px;
+}
+
+.mwpal-post-btn {
+    padding: 10px;
+    width: 60px;
+    float: right;
+    margin: 10px 0;
+    background: #007bff;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.mwpal-get-btn {
+    padding: 10px;
+    width: 60px;
+    float: right;
+    margin: 10px 0;
+    background: #28a745;
+    border: 0;
+    border-radius: 5px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+
+.wp-core-ui .button,
+.wp-core-ui .button-secondary {
+    color: #2271b1;
+    border-color: #2271b1;
+    background: #f6f7f7;
+    vertical-align: top;
+    padding: 5px;
 }

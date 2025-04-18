@@ -30,24 +30,24 @@ class MWPAL_Settings
     {
         $options = get_option(self::$option_name);
 ?>
-<input type="url" name="mwpal_api_settings[mwpal_api_url]"
-    value="<?php echo esc_attr($options['mwpal_api_url'] ?? ''); ?>" class="regular-text" />
-<?php
+        <input type="url" name="mwpal_api_settings[mwpal_api_url]"
+            value="<?php echo esc_attr($options['mwpal_api_url'] ?? ''); ?>" class="regular-text" />
+    <?php
     }
 
     public static function mwpal_render()
     {
     ?>
-<div class="wrap">
-    <h1><?php esc_html_e('API Logger Settings', 'mwpal-api-logger'); ?></h1>
-    <form method="post" action="options.php">
-        <?php
+        <div class="wrap">
+            <h1><?php esc_html_e('API Logger Settings', 'mwpal-api-logger'); ?></h1>
+            <form method="post" action="options.php">
+                <?php
                 settings_fields('mwpal_settings_group');
                 do_settings_sections('mwpal-settings');
                 submit_button();
                 ?>
-    </form>
-</div>
+            </form>
+        </div>
 <?php
     }
 

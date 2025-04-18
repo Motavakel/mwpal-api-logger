@@ -48,6 +48,7 @@ class MWPAL_Plugin
 
     public function enqueue_admin_assets($hook)
     {
+        if (strpos($hook, 'mwpal-') === false) return;
         wp_enqueue_style('mwpal-admin-style', MWPAL_PLUGIN_URL . 'assets/css/style.css', [], MWPAL_VERSION);
         wp_enqueue_script('mwpal-admin-script', MWPAL_PLUGIN_URL . 'assets/js/script.js', ['jquery'], MWPAL_VERSION, true);
     }

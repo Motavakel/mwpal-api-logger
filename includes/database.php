@@ -14,7 +14,7 @@ class MWPAL_Database
             $sql = "CREATE TABLE $table_name (
                 id BIGINT UNSIGNED AUTO_INCREMENT PRIMARY KEY,
                 request_method VARCHAR(10),
-                request_url TEXT,
+                request_url VARCHAR(2083),
                 response LONGTEXT,
                 created_at DATETIME DEFAULT CURRENT_TIMESTAMP
             ) $charset_collate;";
